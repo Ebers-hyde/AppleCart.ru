@@ -1,0 +1,206 @@
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+span.badge-secondary {
+  position: relative;
+  right: 0.70rem;
+  bottom: 0.60rem;
+}
+
+.navbar-expand-sm {
+  background-color: rgba(45, 158, 45, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,0,0,.7);
+  transition: .4s;
+}
+
+.d-sm-none, .d-sm-none:hover  {
+  text-decoration: none;
+}
+
+.about-bgr {
+  background-image: url(../images/shop-photo.png);
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.overlay {
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.67);
+}
+
+.shop-info {
+  position: absolute;
+  top: 40%;
+  width: 80%;
+}
+
+.shop-name {
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+.shop-desc {
+  color: #fff;
+}
+
+.btn-success {
+  background-color: rgba(45, 158, 45, 0.85);
+}
+
+.teasers {
+  font-size: 0.8rem;
+  color: #fff;
+  padding-left: 8%;
+}
+
+.teaser {
+  margin-bottom: 25px;
+}
+
+.teaser span {
+  padding-left: .7rem;
+}
+
+.carousel-indicators li {
+  background-color: #000;
+}
+
+.carousel-caption {
+  color: #000;
+}
+
+.buy {
+  border: .5px solid #c0c0c0;
+  border-radius: 5px;
+  height: 600px;
+}
+
+.accessories-1 {
+  background: url(../images/accessories/airpods-pro.png);
+}
+
+.accessories-2 {
+  background: url(../images/accessories/leather-bumper.png);
+}
+
+.accessories-3 {
+  background: url(../images/accessories/boost.png);
+}
+
+#photo_container img {
+  height: 95%;
+  padding: 0;
+  vertical-align: middle;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: rgba(45, 158, 45, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.overflow-hidden { overflow: hidden; }
+
+@media (max-width: 768px) {
+  .ml-3, .mx-3 {
+    margin-left: .2rem!important;
+  }
+  .mr-3, .mx-3 {
+    margin-right: .2rem!important;
+  }
+
+  .carousel-caption {
+    font-size: .7rem;
+  }
+}
+@media (max-width: 500px) {
+  .shop-info {
+    top: 36%;
+    font-size: .7rem;
+  }
+  .pl-5, .px-5, .pr-5 {
+  padding-left: 1rem!important;
+  }
+
+  .pr-5, .px-5 {
+  padding-right: 1rem!important;
+  }
+
+  .container.buy {
+  max-width: 98%;
+  margin-left: .2rem;
+  margin-right: .2rem;
+  height: 1050px;
+  }
+
+  #model_color {
+  margin-top: .5rem;
+  }
+  #phone_photo {
+  text-align: center;
+  }
+  .modal-body {
+  padding: .2rem;
+  }
+  #photo_container {
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+  #photo_container img {
+  padding-top: 5px;
+  }
+
+  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding-right: 5px;
+  padding-left: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+  .h1, h1 {
+    font-size: 1.5rem;
+}
+.shop-info {
+  top: 40%;
+  font-size: 0.6rem;
+}
+.teaser {
+  margin-bottom: 15px;
+}
+.teaser img {
+  height: 30px;
+}
+p.shop-desc {
+  margin-bottom: .5rem;
+}
+.container.buy {
+  height: 1200px;
+}
+}
