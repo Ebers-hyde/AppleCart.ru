@@ -1,4 +1,10 @@
 
+
+.modal-open {
+  overflow-y: auto;
+  padding-right: 0px !important;
+}
+
 .container {
   max-width: 960px;
 }
@@ -29,8 +35,8 @@ span.badge-secondary {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(0,0,0,.7);
-  transition: .4s;
+  color: rgba(255, 255, 255, 0.7);
+  transition: .8s;
 }
 
 .d-sm-none, .d-sm-none:hover  {
@@ -122,6 +128,16 @@ footer {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
+select, #model_color label, .shop_form label {
+  cursor: pointer;
+}
+
+#model_color label:hover, .shop_form label:hover {
+transform: scale(1.2);
+transition: .8s;
+}
+
 
 .overflow-hidden { overflow: hidden; }
 
