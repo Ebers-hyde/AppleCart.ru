@@ -77,12 +77,12 @@
           оригинальная продукция, соответствующая всем мировым и российским стандартам.
         </p>
         <div class="text-center">
-        <button class="btn btn-success"data-toggle="modal" data-target="#about_modal">Подробнее</button>
+        <button class="btn btn-success" data-toggle="modal" data-target="#about_modal">Подробнее</button>
         </div>
       </div>
       <div class="col-sm-5 teasers">
         <div class="teaser">
-          <img src="images/icons/premium-reseller.svg" height="40px" alt="">
+          <img src="images/icons/premium-reseller.svg" height="40" alt="">
           <span class="text-right">Авторизованный реселлер</span>
         </div>
         <div class="teaser">
@@ -110,8 +110,8 @@
   <div id="carouselExampleCaptions" class="carousel slide mb-5" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active indicator"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -181,9 +181,9 @@
       <div class="col-sm-6">
         <div class="input-group p-2">
           <div class="input-group-prepend">
-            <label class="input-group-text" for="inputGroupSelect01">Модель:</label>
+            <label class="input-group-text">Модель:</label>
           </div>
-          <select id="phone_model" class="custom-select shop_form" id="inputGroupSelect01">
+          <select id="phone_model" class="custom-select shop_form">
             <option data-price="39990" value="1" selected>iPhone 8 Plus</option>
             <option data-price="39990" value="2">iPhone SE</option>
             <option data-price="59990" value="3">iPhone XR</option>
@@ -193,20 +193,30 @@
         </div>
         <div class="input-group p-2 shop_form">
           <div class="input-group-prepend">
-            <label class="input-group-text py-3 mr-2" for="inputGroupSelect01">Цвет:</label>
+            <label class="input-group-text py-3 mr-2">Цвет:</label>
           </div>
           <form id="model_color">
-            <label class="radio-inline mx-2" style="width: 57px; height: 57px; background-color: rgb(66, 66, 66); border-radius: 100px; border: 1px solid #2a9f2a;"><input checked style="visibility: hidden;" class="color_input" type="radio" name="color" data-color="Space Gray"></label> 
-            <label class="radio-inline mx-2" style="width: 57px; height: 57px; background-color: rgb(255, 244, 194); border-radius: 100px; border: 1px solid #2a9f2a;"><input style="visibility: hidden;" class="color_input" type="radio" name="color" data-color="Gold"></label>
-            <label class="radio-inline mx-2" style="width: 57px; height: 57px; background-color: rgb(241, 241, 241); border-radius: 100px; border: 1px solid #2a9f2a;"><input style="visibility: hidden;" class="color_input" type="radio" name="color" data-color="Silver"></label>
-            <label class="radio-inline mx-2" style="width: 57px; height: 57px; background-color: tomato; border-radius: 100px; border: 1px solid #2a9f2a;"><input id="redColor" style="visibility: hidden;" class="color_input" type="radio" name="color" data-color="Red"></label>
+            <label class="radio-inline mx-2"
+              style="width: 57px; height: 57px; background-color: rgb(66, 66, 66); border-radius: 100px; border: 1px solid #2a9f2a;"><input
+                checked style="visibility: hidden;" class="color_input" type="radio" name="color"
+                data-color="Space Gray"></label>
+            <label class="radio-inline mx-2"
+              style="width: 57px; height: 57px; background-color: rgb(255, 244, 194); border-radius: 100px; border: 1px solid #2a9f2a;"><input
+                style="visibility: hidden;" class="color_input" type="radio" name="color" data-color="Gold"></label>
+            <label class="radio-inline mx-2"
+              style="width: 57px; height: 57px; background-color: rgb(241, 241, 241); border-radius: 100px; border: 1px solid #2a9f2a;"><input
+                style="visibility: hidden;" class="color_input" type="radio" name="color" data-color="Silver"></label>
+            <label class="radio-inline mx-2"
+              style="width: 57px; height: 57px; background-color: tomato; border-radius: 100px; border: 1px solid #2a9f2a;"><input
+                id="redColor" style="visibility: hidden;" class="color_input" type="radio" name="color"
+                data-color="Red"></label>
           </form>
-          </div>
+        </div>
         <div class="input-group p-2">
           <div class="input-group-prepend">
-            <label class="input-group-text" for="inputGroupSelect01">Объём памяти:</label>
+            <label class="input-group-text">Объём памяти:</label>
           </div>
-          <select id="phone_memory" class="custom-select shop_form" id="inputGroupSelect01">
+          <select id="phone_memory" class="custom-select shop_form">
             <option data-price="0" selected>64 GB</option>
             <option data-price="5000" value="1">128 GB</option>
             <option data-price="14000" value="2">256 GB</option>
@@ -214,17 +224,22 @@
         </div>
         <h6 class="p-2">Добавить аксессуары:</h6>
         <div class="input-group p-2">
-            <div class="input-group shop_form" id="accessories">
-            <label class="mx-3" style="width: 100px; height: 100px; background: url(images/accessories/airpods-pro.png);"><input id="acc1" type="checkbox" data-price="20990"></label>
-            <label class="mx-3" style="width: 100px; height: 100px; background: url(images/accessories/leather-bumper.png);"><input id="acc2" type="checkbox" data-price="3900"></label>
-            <label class="mx-3" style="width: 100px; height: 100px; background: url(images/accessories/boost.png);"><input id="acc3" type="checkbox" data-price="5890"></label>
-            </div>
+          <div class="input-group shop_form" id="accessories">
+            <label class="mx-3"
+              style="width: 100px; height: 100px; background: url(images/accessories/airpods-pro.png);"><input id="acc1"
+                type="checkbox" data-price="20990"></label>
+            <label class="mx-3"
+              style="width: 100px; height: 100px; background: url(images/accessories/leather-bumper.png);"><input
+                id="acc2" type="checkbox" data-price="3900"></label>
+            <label class="mx-3"
+              style="width: 100px; height: 100px; background: url(images/accessories/boost.png);"><input id="acc3"
+                type="checkbox" data-price="5890"></label>
+          </div>
         </div>
-        <h2 class="py-4 text-center" id="phone_price">39 990₽</h4>
+        <h4 class="py-4 text-center" id="phone_price">39 990₽</h4>
         <div class="text-center">
-        <button id="to-cart" class="btn btn-success text-center btn-block py-4 my-4">В корзину</button>
+          <button id="to-cart" class="btn btn-success text-center btn-block py-4 my-4">В корзину</button>
         </div>
-      </div>
       </div>
     </div>
   </div>
@@ -236,12 +251,12 @@
   </div>
 </footer>
 
-<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+        <h5 class="modal-title">Корзина</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -270,37 +285,45 @@
   </div>
 </div>
 
-<div class="modal fade" id="about_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade" id="about_modal" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class=" modal-dialog modal-dialog-scrollable modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLabel">Об интернет-магазине AppleCart.ru</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title">Об интернет-магазине AppleCart.ru</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
       </div>
       <p class="p-3 text-justify">
-        История компании началась в 2012 году, когда розничное подразделение компании Apple UTD Siberia открыло свой первый магазин Apple в Новосибирске.
+        История компании началась в 2012 году, когда розничное подразделение компании Apple UTD Siberia открыло свой
+        первый магазин Apple в Новосибирске.
       </p>
       <p class="p-3 text-justify">
-        В настоящее время у нас открыто более 10 розничных магазинов в крупнейших городах Сибири и Дальнего Востока, таких как Новосибирск, Иркутск, Владивосток и Красноярск. 
-        В ассортименте представлена вся линейка продукции компании Apple, а также широкий выбор дополнительных устройств и аксессуаров.
+        В настоящее время у нас открыто более 10 розничных магазинов в крупнейших городах Сибири и Дальнего Востока,
+        таких как Новосибирск, Иркутск, Владивосток и Красноярск.
+        В ассортименте представлена вся линейка продукции компании Apple, а также широкий выбор дополнительных устройств
+        и аксессуаров.
       </p>
       <p class="p-3 text-justify">
         Мы предлагаем удобные программы кредитования и рассрочки, услуги страхования техники, бонусные программы.
       </p>
       <p class="p-3 text-justify">
-        Несмотря на то, что мы отправляем заказы дистанционно, покупатели всегда имеют возможность познакомиться с любым продуктом «вживую». 
-        Наши консультанты, прошедшие обучение по программе Apple, готовы прийти на помощь и ответить на все вопросы, а при необходимости
+        Несмотря на то, что мы отправляем заказы дистанционно, покупатели всегда имеют возможность познакомиться с любым
+        продуктом «вживую».
+        Наши консультанты, прошедшие обучение по программе Apple, готовы прийти на помощь и ответить на все вопросы, а
+        при необходимости
         провести консультацию по видеосвязи и показать конкретный экземпляр.
       </p>
       <p class="p-3 text-justify">
-        Желание максимально соответствовать требованиям самых взыскательных клиентов и выстраивать долгосрочные отношения с ними за счёт уровня 
-        обслуживания принесло свои плоды. За прошедшие годы нашими клиентами стали десятки тысяч людей и тысячи компаний. Мы гордимся тем, что они выбрали нас.
+        Желание максимально соответствовать требованиям самых взыскательных клиентов и выстраивать долгосрочные
+        отношения с ними за счёт уровня
+        обслуживания принесло свои плоды. За прошедшие годы нашими клиентами стали десятки тысяч людей и тысячи
+        компаний. Мы гордимся тем, что они выбрали нас.
       </p>
     </div>
   </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>
     <script src="./js/main.js"></script>
