@@ -154,10 +154,16 @@ transition: .8s;
   }
 }
 @media (max-width: 500px) {
+
+  .about-bgr {
+    min-height: 747px;
+  }
+
   .shop-info {
     top: 36%;
     font-size: .7rem;
   }
+
   .pl-5, .px-5, .pr-5 {
   padding-left: 1rem!important;
   }
