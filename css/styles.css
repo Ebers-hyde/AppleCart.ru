@@ -158,11 +158,11 @@ transition: .8s;
 @media (max-width: 500px) {
 
   .about-bgr {
-    min-height: 747px;
+    min-height: 667px;
   }
 
   .shop-info {
-    top: 30%;
+    top: 10%;
     font-size: .7rem;
   }
 
